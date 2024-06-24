@@ -1,0 +1,30 @@
+.pre-footer-container {
+  justify-content: center;
+}
+.pre-footer-wrapper {
+  justify-content: center;
+}
+.pre-footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 2;
+  align-items: center;
+  margin: 10px auto;
+}
+.secOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pre-footer-footnote {
+  padding: 100px auto;
+  background-color: var(--blue-5);
+  justify-content: center;
+}
+@media screen and (max-width: 1000px) {
+  .pre-footer-links {
+    flex-direction: column;
+    margin: 40px auto;
+  }
+}
